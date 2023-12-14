@@ -1,0 +1,47 @@
+
+             BACK end
+           ..................
+
+
+           -to run back end we want json data(to store data) and json server(to handle request coming from front end)
+           -back end doesn't have any package
+           - to import package open comand prompt type
+                    * npm init -y
+                    * install json server : npm i json-server(type in cmd)
+                    * create a new file .gitignore(in vs code)
+                         type: node_module(we dont want to push this module in git)
+                    * create another file index.js(main page)
+
+                    to run :
+                      -remove the test from package.json and type
+                            "start":"node index.jx" (this command used to run back end)
+
+
+          - how to create server
+                    * in back end if we want to import any thing we need require method
+
+
+
+          step 1: import json server using require method
+                    assign json-server to variable
+
+          step2: to create server using json server  
+                    assign jsonserver.create() to a variable
+               
+          step3: middleware: used to parse the javascript data
+
+          step4:create port for server
+                when application run:
+                    const PORT=process.env.PORT || 4000
+                        process:
+                        env: environmental variables(supply values)
+
+          step5: use middle ware in server
+
+          step6: create db.json file
+
+          step7: create router(before createing middleware)
+
+          step8: use router(after middleware)
+
+         
